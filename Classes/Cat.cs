@@ -9,7 +9,7 @@ internal class CAT
         Console.WriteLine("Enter the name of the file you wish to read");
         string ?cRead = Console.ReadLine();
 
-        if (String.IsNullOrWhiteSpace(cRead))
+        if (string.IsNullOrWhiteSpace(cRead))
         {
             Console.WriteLine("You didn't enter the name of a file");
         }
