@@ -31,7 +31,7 @@ internal class NewTouch
 
             if (!File.Exists(tRead))
             {
-                using (FileStream fs = File.Create(tRead));
+                using (FileStream fs = File.Create(tRead))
                 Console.Write("Created the file ");
                 Console.ForegroundColor = ConsoleColor.DarkBlue;
                 Console.WriteLine($"{tRead}");
